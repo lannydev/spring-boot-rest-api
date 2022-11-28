@@ -1,12 +1,11 @@
-package com.lannydev.docespersonalizados;
+package com.lannydev.docespersonalizados.service;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.Profile;
 
-@Configuration
-@Profile("development")
+@Development
 public class MyConfiguration {
     @Bean
     public CommandLineRunner executar(){
